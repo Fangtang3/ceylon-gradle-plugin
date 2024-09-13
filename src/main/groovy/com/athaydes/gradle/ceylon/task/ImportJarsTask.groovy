@@ -8,7 +8,6 @@ import groovy.transform.CompileDynamic
 import groovy.transform.CompileStatic
 import org.gradle.api.DefaultTask
 import org.gradle.api.GradleException
-import org.gradle.api.Nullable
 import org.gradle.api.Project
 import org.gradle.api.artifacts.ResolvedArtifact
 import org.gradle.api.artifacts.ResolvedDependency
@@ -17,6 +16,8 @@ import org.gradle.api.logging.Logging
 import org.gradle.api.tasks.InputFiles
 import org.gradle.api.tasks.OutputDirectory
 import org.gradle.api.tasks.TaskAction
+
+import javax.annotation.Nullable
 
 @CompileStatic
 class ImportJarsTask extends DefaultTask {

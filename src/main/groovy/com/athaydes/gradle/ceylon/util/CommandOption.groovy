@@ -2,7 +2,8 @@ package com.athaydes.gradle.ceylon.util
 
 import groovy.transform.CompileStatic
 import groovy.transform.Immutable
-import org.gradle.api.Nullable
+
+import javax.annotation.Nullable
 
 /**
  * A simple command option.
